@@ -15,6 +15,7 @@ import EnglishT1 from '@/views/EnglishT1.vue'
 import EnglishP1 from '@/views/EnglishP1.vue'
 
 const router = createRouter({
+    mode: 'hash',
     history: createWebHistory(),
     routes: [
         {
